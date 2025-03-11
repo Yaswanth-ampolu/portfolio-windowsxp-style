@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.window {
+  background: #ECE9D8;
+  border: 1px solid #0054E3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.title-bar {
+  background: linear-gradient(to right, #0054E3, #2E8AEA);
+  color: white;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.window-body {
+  padding: 8px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.taskbar-gradient {
+  background: linear-gradient(to right, #245edb, #3f8cf3);
+}
